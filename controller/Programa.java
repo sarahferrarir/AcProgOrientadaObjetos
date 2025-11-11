@@ -9,7 +9,7 @@ public class Programa {
     public static void main(String[] args) {
 
         Laboratorio laboratorio1 = new Laboratorio("lab1",30, "E", 30, "química");
-        Laboratorio laboratorio2 = new Laboratorio("lab2",50, "F", 40, "infromática");
+        Laboratorio laboratorio2 = new Laboratorio("lab2",50, "F", 40, "informática");
 
         Auditorio auditorio1 = new Auditorio("aud1", 60, "A", true, true);
         Auditorio auditorio2 = new Auditorio("aud2", 80, "B", true, false);
@@ -21,7 +21,7 @@ public class Programa {
         Aluno aluno2 =new Aluno("aluno2", "gmail@gmail.com","987654321", "CDIA");
 
         Instrutor instrutor1 = new Instrutor("inst1", "inst1@email.com", "mestre","informatica");
-        Instrutor instrutor2 = new Instrutor("inst2", "inst2@email.com", "mestre","qupimica");
+        Instrutor instrutor2 = new Instrutor("inst2", "inst2@email.com", "mestre","quimica");
 
         Organizador organizador1 = new Organizador("org1", "org1@email.com", "coordenador");
         Organizador organizador2 = new Organizador("org2", "org2@email.com", "responsável por inscrições");
